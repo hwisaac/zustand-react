@@ -37,6 +37,6 @@ export default function DevtoolsPage({}: Props) {
     <p>bears: {bears}</p>
     <p>fishes: {fishes}</p>
     <div onClick={addBear}>addBear</div>
-    
+    <div onClick={addFish}>addFish</div>
   </div>;
 }
