@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router';
 import App from './App';
 import TicTacToe from './pages/TicTacToe';
 import DevtoolsPage from './pages/DevtoolsPage';
+import TestPage from './pages/TestPage';
 
 
 function Root() {
@@ -13,7 +14,7 @@ const router =createBrowserRouter([
       path: "/",
       Component: App,
       children: [
-        { index: true, Component: TicTacToe },
+        { index: true, Component: TestPage },
         {
           path:'devtools',
           Component: DevtoolsPage,
